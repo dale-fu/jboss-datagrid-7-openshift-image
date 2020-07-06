@@ -20,7 +20,7 @@ spec:
       periodSeconds: 5
       successThreshold: 2
       failureThreshold: 5
-    image: "${DOCKER_REGISTRY_REDHAT}rh-osbs/jboss-eap-7-eap73-openj9-11-openshift-rhel8:7.3.0-3"
+    image: "${EXECUTOR_IMAGE}"
     ports:
     - containerPort: 8080
       protocol: TCP
